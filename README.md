@@ -21,6 +21,7 @@ You can set up the environment by following commands.
 
 ```sh
 conda create -n DPM-GSP python=3.10
+conda activate DPM-GSP
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 pip install tqdm
 pip install pyyaml
