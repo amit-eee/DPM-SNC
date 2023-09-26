@@ -23,11 +23,7 @@ You can set up the environment by following commands.
 conda create -n DPM-GSP python=3.10
 conda activate DPM-GSP
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
-pip install tqdm
-pip install pyyaml
-pip install easydict
-pip install torch-sparse
-pip install torch-scatter==2.0.9
+pip install tqdm pyyaml easydict torch-sparse torch-scatter==2.0.9
 ```
 You also need to install torch-geometric package. Each experiment requires a different version.
 
